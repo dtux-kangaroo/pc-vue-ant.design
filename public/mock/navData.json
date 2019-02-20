@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "message": "执行成功~~",
+  "data": {
+    "topNav": [{
+        "id": 1,
+        "parentId": 1,
+        "permissionName": "首页",
+        "permissionIcon": "",
+        "permissionUrl": "/home",
+        "children": []
+      },
+      {
+        "id": 2,
+        "parentId": 2,
+        "permissionName": "直方图",
+        "permissionIcon": "",
+        "permissionUrl": "/bar",
+        "children": []
+      },
+      {
+        "id": 3,
+        "parentId": 1,
+        "permissionName": "折线图",
+        "permissionIcon": "",
+        "permissionUrl": "/line",
+        "children": []
+      }
+    ]
+  }
+}
