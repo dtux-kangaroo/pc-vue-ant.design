@@ -2,6 +2,7 @@ import Vue from 'vue';
 import Router from 'vue-router';
 import Tip404 from '@/pages/error/404'
 import MainLayout from '@/layout/mainLayout';
+import Login from '@/pages/login/index';
 import load from '@/components/load'
 const Home = () => ({
   component: import('@/pages/home/index'),
@@ -35,6 +36,11 @@ export default new Router({
         name: 'bar',
         component: Bar
       }]
+    },
+    {
+      path: '/login',
+      name: 'login',
+      component: Login
     },
     {
       path: '/404',

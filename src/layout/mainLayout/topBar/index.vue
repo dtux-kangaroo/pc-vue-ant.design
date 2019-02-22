@@ -33,17 +33,8 @@
       </a-menu> -->
     </div>
     <div class='fr top-user' >
-        <div class="top-badge">
-          <i class="iconfont icon-youxiang"></i>
-          <sup>121236</sup>
-        </div>
-        <i class="iconfont icon-split"></i>
-        <span>
-          个人中心
-        </span>
-        <i class="iconfont icon-split"></i>
         <span @click="loginOut">
-          退出
+          退出登录
         </span>
     </div>
   </div>
@@ -67,7 +58,7 @@ export default {
   },
   methods: {
     loginOut() {
-      console.log("退出登录");
+      this.$router.push("/login");
     },
     redirec(path,index) {
       this.nowPage = index;
