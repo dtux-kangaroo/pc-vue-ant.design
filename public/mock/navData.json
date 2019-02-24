@@ -13,18 +13,35 @@
       {
         "id": 2,
         "parentId": 2,
-        "permissionName": "直方图",
+        "permissionName": "API市场",
         "permissionIcon": "",
-        "permissionUrl": "/bar",
-        "children": []
-      },
-      {
-        "id": 3,
-        "parentId": 1,
-        "permissionName": "折线图",
-        "permissionIcon": "",
-        "permissionUrl": "/line",
-        "children": []
+        "permissionUrl": "/api/all",
+        "children": [{
+            "id": 8,
+            "parentId": 0,
+            "permissionName": "所有服务",
+            "permissionIcon": "gaojinglishi",
+            "permissionUrl": "/api/all",
+            "children": []
+          },
+          {
+            "id": 9,
+            "parentId": 1,
+            "permissionName": "服务发布",
+            "permissionIcon": "gaojinglishi",
+            "permissionUrl": "/api/publish",
+            "children": []
+          },
+          {
+            "id": 10,
+            "parentId": 2,
+            "permissionName": "服务导入",
+            "permissionIcon": "gaojinglishi",
+            "permissionUrl": "/api/export",
+            "children": []
+          }
+        ]
+
       }
     ]
   }
